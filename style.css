@@ -1,12 +1,14 @@
 *{
     font-family: 'Josefin Sans', sans-serif;
-    background: #e9ecf8;
 
 }
 
 
 /* Cabecera */
 
+.cuerpo{
+    background: #e9ecf8;
+}
 .cabecera{
 
     height: auto;
@@ -85,11 +87,11 @@
  
     width: 80%;
     max-width: 100%;
-    height: 80px;
+    height: 120px;
     box-sizing: border-box;
     margin-left: 5%;
     margin-top:2%;
-    font-size: 0.6em;
+    font-size: 0.75em;
     line-height: 150%;
     font-weight:lighter;
     color: #3c2b51;
@@ -201,9 +203,9 @@
 
     width: 85%;
     max-width: 100%;
-    height: 75px;
+    height: 150px;
     box-sizing: border-box;
-    font-size: 0.6em;
+    font-size: 0.75em;
     border: 1px solid;
     border-radius: 10px;
     padding: 1em;

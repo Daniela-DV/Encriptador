@@ -55,20 +55,25 @@
 
 @media screen and (min-width: 480px) {
 
+
     #texto{
  
         width: 80%;
-        height: 150px;
+        height: 180px;
         margin-top:1%;
-        font-size: 0.8em;
+        font-size: 1em;
     
     }
+    .conteiner{
 
+        height: auto;
+
+    }
     .desencriptar{
        
         width: 100%;
         max-width: 100%;
-        height: 150px;
+        height: auto;
         box-sizing: border-box;
         margin: 1px;
         display: block;
@@ -90,9 +95,9 @@
 
         width: 100%;
         max-width: 90%;
-        height: 100px;
+        height: 150px;
         box-sizing: border-box;
-        font-size: 0.8em;
+        font-size: 1em;
         border: 1.5px solid;
         border-radius: 20px;
         margin-left: 1%;
@@ -129,6 +134,12 @@
         margin:1px;
     } 
     
+}
+
+.piePagina{
+   
+    margin-top: 3em;
+  
 }
 
 
