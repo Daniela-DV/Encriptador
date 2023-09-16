@@ -1,0 +1,295 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    background: #e9ecf8;
+
+}
+
+
+/* Cabecera */
+
+.cabecera{
+
+    height: auto;
+    display:flex;
+    align-items: center;
+    margin-top:0.5%; 
+    margin-left: 10px;
+    max-width: 100%; 
+    gap:20%;
+
+    width:90vw;
+    max-width: 100vw;
+    gap:10%;
+    box-sizing: border-box;
+    
+}
+
+#logo-alura{
+    
+    width: 10px;
+    height: auto;
+    margin-top:8px;
+    margin-bottom:8px;
+    margin-right: 0px;
+    margin-left: 5px;
+    box-sizing: border-box;
+    
+}
+
+.titulo{
+
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    font-weight: bold;
+    color: #3c2b51;
+    margin-right: 5px;
+    box-sizing: border-box;
+    
+
+}
+
+/* Cuerpo */
+
+.conteiner{
+    width: 100vw;
+    max-width: 100vw;
+    height: auto;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+    gap:0px;
+    align-items: center;
+
+    
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+ 
+}
+
+/* Encriptador */
+
+
+.encriptar{
+
+    width: 100%;
+    height: 55%;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center; 
+
+}
+
+#texto{
+ 
+    width: 80%;
+    max-width: 100%;
+    height: 80px;
+    box-sizing: border-box;
+    margin-left: 5%;
+    margin-top:2%;
+    font-size: 0.6em;
+    line-height: 150%;
+    font-weight:lighter;
+    color: #3c2b51;
+    background: #e9ecf8;
+    border:none;    
+
+}
+
+
+#texto::placeholder{   color: #3c2b51;;}
+
+#texto:focus,
+#texto:active{
+    border:none;
+    outline: none;
+}
+
+#texto:focus::placeholder{ 
+    
+    color: transparent;
+    
+
+}
+
+.condiciones{
+    max-width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 0.3em;
+    font-weight: bolder;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #3c2b51;
+    margin-left: 6%;
+}
+
+.btn{
+   
+    gap:2px;
+    width: 70%;
+    max-width: 100%;
+    margin-left: 10%;
+    display:flex;
+    justify-content: center;
+}
+
+.btn-encriptar{
+
+    width:100%;
+    height: 20%;
+    box-sizing: border-box;
+    align-items:center;
+    justify-content: center;
+    color:#f3f2fa;
+    font-size: 0.6em;
+    background: #9ba5d0;
+    border: 1px solid;
+    border-radius:10px;
+    border-color: #f3f2fa;
+    padding: 2%;
+    gap:8px;
+    cursor:pointer; 
+    font-weight: 600;
+
+}
+
+.btn-desencriptar{
+
+
+    width:100%;
+    height: 20%;
+    box-sizing: border-box;
+    align-items:center;
+    justify-content: center;
+    color:#9ba5d0;
+    font-size: 0.6em;
+    background: #f3f2fa;
+    border: 1px solid;
+    border-radius:10px;
+    border-color: #9ba5d0;
+    padding: 2%;
+    gap:8px;
+    cursor:pointer; 
+    font-weight: 600;
+}
+
+/* Desencriptador */
+
+.desencriptar{
+   
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    height: 45%;
+    box-sizing: border-box;
+    margin:0;
+    align-items: center; 
+}
+
+.conteiner-desencriptar{
+    width: 100%;
+    align-items: center;
+    position: relative;
+    display: inline-block;
+}
+
+#mensaje{
+
+    width: 85%;
+    max-width: 100%;
+    height: 75px;
+    box-sizing: border-box;
+    font-size: 0.6em;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 1em;
+    margin-left: 3%;
+    margin-top:5px;
+    margin-right: 0px;
+    border-color: #9ba5d0;
+    background: #f3f5fc;
+    color: #3c2b51;
+ 
+}
+
+#mensaje::placeholder{   color: #3c2b51;;}
+
+#mensaje:focus{
+    outline: none;
+}
+
+
+.btn-copiar{
+   
+    width: 70%;
+    height: 20%;
+    box-sizing: border-box;
+    position: inherit;
+    font-size: 0.6em ;
+    text-align: center; 
+    border: 1px solid;
+    border-radius:10px;
+    border-color: #f3f2fa;
+    color:#f3f2fa;
+    background: #9ba5d0;
+    cursor:pointer;    
+    margin-left: 10%;
+    padding: 2%;
+    font-weight: 600;
+
+}
+
+.munheco{
+    max-width: 100%;
+    position: absolute;
+    top:35%;
+    right:-50px;
+    width: 70%;
+    margin:1px;
+    background: none;
+
+}
+
+
+/* Footer */
+
+.piePagina{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5em;
+    width: 100vw;
+    height: 10vh;
+    align-items: center;
+}
+
+.copyright{
+    justify-content: center;
+    margin: 10px;
+    font-weight: bolder;
+    color:#9ba5d0; 
+    font-size: 0.4em;
+ 
+}
+
+.redirecciones{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#linkedin{
+    cursor:pointer;
+    width: 10%;
+}
+
+#github{
+    cursor:pointer;
+    width: 10%;
+    margin-right: 5%;
+
+}

@@ -1,0 +1,384 @@
+
+/* Responsive  */
+
+
+/* Celular  */
+@media screen and (max-width: 320px) {
+
+    .btn{
+        flex-direction: column;
+        gap:2px;
+        width: 70%;
+        margin-left: 10%;
+    
+    }
+    
+    .btn-encriptar{
+        font-size: 0.6em;
+        width:100%;
+        box-sizing: border-box;
+        height: 20%;
+        border: 1px solid;
+    }
+    
+    .btn-desencriptar{
+        font-size: 0.6em;
+        width:100%;
+        box-sizing: border-box;
+        height: 20%;
+        border: 1px solid;
+    }
+
+    .btn-copiar{
+
+        width: 70%;
+        font-size: 0.6em;
+        box-sizing: border-box;
+        height: 20%;
+        margin-left: 10%;
+        border: 1px solid;
+        position: inherit;
+    
+    }
+
+}
+
+@media screen and (max-width: 480px){
+    .munheco{
+        display: none;
+    }
+  
+}
+
+
+/* Tablet 1  */
+
+@media screen and (min-width: 480px) {
+
+    #texto{
+ 
+        width: 80%;
+        height: 150px;
+        margin-top:1%;
+        font-size: 0.8em;
+    
+    }
+
+    .desencriptar{
+       
+        width: 100%;
+        max-width: 100%;
+        height: 150px;
+        box-sizing: border-box;
+        margin: 1px;
+        display: block;
+        position:relative;
+    }
+
+    .conteiner-desencriptar{
+
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        align-items: center;
+        position: relative;
+        display: inline-block;
+
+    }
+
+    #mensaje{
+
+        width: 100%;
+        max-width: 90%;
+        height: 100px;
+        box-sizing: border-box;
+        font-size: 0.8em;
+        border: 1.5px solid;
+        border-radius: 20px;
+        margin-left: 1%;
+        margin-top:2%;
+        margin-right: 10px;
+        margin-right:20% ;
+        border-color: #9ba5d0;
+
+        /* margin-top: 10px; */
+        /* margin-left: 98px; */
+        
+        
+    
+    }
+    
+    .btn-copiar{
+        
+        width:40%;
+        height: 20%;
+        position: absolute;
+        top:100%;
+        left:20%;
+        text-align: center;
+        border: 2px solid;
+
+
+
+    }
+    .munheco{
+        position: absolute;
+        top: 15%;
+        right:60px;
+        width: 100px;
+        margin:1px;
+    } 
+    
+}
+
+
+/* Tablet 2 */
+@media screen and (min-width: 700px){
+
+    /* Cabecera */ 
+.cabecera{
+    width:85vw;
+    margin-top:2%; 
+    margin-left: 5%; 
+}
+
+    #logo-alura{ 
+        width: 20px; 
+    }
+    
+    .titulo{
+      
+        font-size: 1.5em; 
+    }
+
+/* Encriptador */
+
+    #texto{
+ 
+        width: 75%;
+        height: 150px;
+        font-size: 1em;
+    }
+
+    .condiciones{
+        max-width: 70%;
+        font-size: 0.5em;
+    }
+
+    .btn{
+   
+        gap:10px;
+        width: 80%;
+    }
+
+    
+.btn-encriptar{
+
+    font-size: 0.75em;
+}
+
+.btn-desencriptar{
+    font-size: 0.75em;
+}
+/* Desencriptador */
+    .desencriptar{
+       
+        height: 230px;
+    }
+       
+    
+    .conteiner-desencriptar{
+
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #mensaje{
+        margin-left: 5%;
+        width: 90%;
+        height: 150px;  
+        font-size: 1em;
+    }
+
+    .btn-copiar{
+        font-size: 0.75em;
+    }
+    .munheco{
+        
+        top:15%;
+        width: 150px;
+        right:50px;
+       
+    
+    }
+    /* Footer */
+    .piePagina{
+        margin-top: 1em;
+    }
+    
+.copyright{
+    font-size: 0.6em;
+}
+
+
+}
+
+
+/* Desktop 1 */
+@media screen and (min-width: 1000px) {
+
+    /* Cabecera */
+
+    .cabecera{
+        width:60vw;
+      justify-content: space-between;
+        gap:0;   
+    }
+
+#logo-alura{
+    width: 28px; 
+}
+
+
+    /* Cuerpo */
+
+    .conteiner{
+        width: 90vw;
+        height: auto;
+        gap:15px;
+        flex-direction: row;
+        justify-content: space-between;  
+       
+    }
+
+    
+/* Encriptador */
+
+.encriptar{
+    width: 100%;
+    height: 100%;
+    margin-top: 2%; 
+  
+}
+
+#texto{
+    width: 70%;
+    height: 400px;
+    font-size: 1.7em;
+   margin-left: 15%;
+}
+
+
+.condiciones{
+    font-size: 0.75rem;
+    margin-left: 15%;
+}
+
+.btn{
+    gap:25px;
+}
+
+.btn-encriptar{
+
+    width:40%;
+    font-size: 1.2rem;
+    border: 1.5px solid;
+}
+
+.btn-desencriptar{
+    width:40%;
+    font-size: 1.2rem;
+    border: 1.5px solid;
+}
+
+
+/* Desencriptador */
+
+.desencriptar{
+    display: block;
+    position:relative;
+    width: 40%;
+    height: 100%;
+    margin-left: 2%;
+ 
+}
+
+.conteiner-desencriptar{
+    position: relative;
+    display: inline-block;
+
+}
+
+#mensaje{
+    
+    width: 80%;
+    height: 500px;
+    max-width: 90%;
+    margin-left: 30%;
+    border: 1.5px solid;
+    padding: 0.5em;
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+
+
+.btn-copiar{
+  
+    width:40%;
+    height: 10%;
+    position: absolute;
+    top:85%;
+    left: 35%;
+    font-size: 1.2rem;
+    border: 1.5px solid;
+  
+}
+
+.munheco{
+    
+    top:35%;
+    left: 30%;
+    width: 200px;
+    
+}
+
+
+/* Footer */
+
+
+
+.piePagina{
+  
+    margin-top: 5%;
+    width: 90vw;
+    height: auto;
+    margin-left: 8%;
+}
+
+.copyright{
+  
+    font-size: 0.9em;
+ 
+}
+
+.redirecciones{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#linkedin{
+    cursor:pointer;
+    width: 10%;
+}
+
+#github{
+    cursor:pointer;
+    width: 10%;
+    margin-right: 5%;
+
+}
+
+
+}

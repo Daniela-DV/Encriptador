@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+
+        <meta charset = "UFT-8">
+        <title> Proyecto encriptador de texto - Alumna Del Valle Daniela</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href = "style.css">
+        <link rel="stylesheet" href="responsive.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+       
+
+      
+    </head> 
+    
+
+    
+    <body class="cuerpo" id="cuerpo">
+
+        <header class="cabecera">
+
+          <h1 class="logo"> <img src="Imagenes/Vector.png" alt="Logo Alura" id="logo-alura"></h1> 
+          <p class="titulo" id="titulo-Principal">Encriptador de Textos</p>
+          
+
+        </header>
+
+        <main>
+            
+            <section class="conteiner">
+
+                <div class="encriptar">
+
+                    <div>
+                        <textarea class="text-area" cols="" rows="" placeholder="Ingrese el texto que desea encriptar" id="texto"></textarea>
+                    </div>
+
+                    <div>
+                        <h6 class="condiciones">Solo palabras formadas con minuscula y sin acentos</h6>
+                    </div>
+                    
+                    <div class="btn">
+
+                        <button class="btn-encriptar" type="button" value="Encriptar" data-btn-encriptar onclick="encriptarTexto()">Encriptar</button>
+
+                        <button class="btn-desencriptar" type="button" value="Desencriptar">Desencriptar</button>
+                    </div>
+
+               </div>
+
+               <div class="desencriptar">
+
+                    <div class="conteiner-desencriptar">
+                        <textarea class="texto-encriptado" cols="" rows="" placeholder="Ingrese el texto que desea desencriptar: " id="mensaje"></textarea>
+
+                        <div>
+                            <img src="/Imagenes/munheco.png.png" alt="munheco" class="munheco">
+                        </div>
+
+                        <div>
+                           <button class="btn-copiar" type="button" value="Copiar"> Copiar</button> 
+                        </div>
+
+                        
+                         
+                      
+                    </div>
+      
+                   
+                </div>
+
+            </section>
+       
+        </main>
+
+        <footer class="Footer">
+            <div class="piePagina">
+                <p class="copyright">&copycopyright Daniela Del Valle - 2023 </p>
+
+                <section class="redirecciones">
+               
+                    <img  src="/Imagenes/github.png.png" alt="Github" id="github" onclick="redireccionarGithub()">
+
+                    <img  src="/Imagenes/linkedin.png.png" alt="Github" id="linkedin" onclick="redireccionarLinkedin()">
+                </section>
+                
+            </div>
+
+        </footer>
+
+    <script src="/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+       
+    </body>
+
+    
+</html>
